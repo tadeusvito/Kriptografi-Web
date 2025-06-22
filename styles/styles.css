@@ -1,0 +1,42 @@
+.navbar {
+    border-bottom: none;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+/* Text Container */
+.text-container h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    color: #007bff;
+}
+
+.text-container p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.btn-glow {
+    box-shadow: 0 4px 14px 0 rgba(0, 123, 255, 0.39);
+}
+
+/* Image Container */
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.animated-image {
+    transition: transform 0.5s ease-in-out;
+}
+
+.animated-image:hover {
+    transform: scale(0.7);
+}
